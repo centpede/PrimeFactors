@@ -7,7 +7,7 @@ namespace PrimeFactorsTest
         [Fact]
         public static void Test1()
         {
-            int testNumber = 994;
+            int testNumber = 993;
 
             List<int> actual = PrimeFactorsLib.PrimeFactorsLib.PrimeFactors(testNumber);
             List<int> should = new() { 3, 331 };
